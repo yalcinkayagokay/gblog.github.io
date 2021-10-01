@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giriş Yap</title>
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/logo.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+</head>
+<body style="background-color: antiquewhite;" >
+    <a href="index.html"><img id="logo" src="./images/logo1.png" alt=""></a> 
+    
+    <!-- Alternatif LOGO:
+
+    <h1 style="font-size: 30px;color:darkolivegreen ;"> 
+        <button type="button" onClick="location.href='index.html'"> <img src="./images/images.png"
+            alt="" width="50" height="50">
+        </button> gBLOG 
+    </h1>
+
+    -->
+    <hr>
+
+<div > 
+    <section id="giris">
+        <input  class="giris-yap" type="text" name="kullanici_adi-" id="kullanici_adi" placeholder="E-posta" />
+        <input class="giris-yap" type="password" name="parola" id="parola" placeholder="Şifreniz"/>
+        <button type="button" onClick="GirisYap()">Giriş Yap</button>
+        <h3> <button type="button" onClick="location.href='sifremi_unuttum.html'">Şifremi Unuttum</button> </h3> 
+        <button type="button" onClick="location.href='kayit.html'">Kayıt Ol</button>
+        <h4>Beni Hatırla <input class="radio-button" name="" value="" type="checkbox"/> </h4>
+    </section>
+</div>
+
+  
+    <script>
+
+        function GirisYap() {
+            var kullanici_adi = $("#kullanici_adi").val();
+            var parola = $("#parola").val();
+            if (kullanici_adi != '' && parola != '') {
+                location.href = 'index.html';
+            }
+            else {
+                alert('Kullanıcı Adı veya Parola Boş Bırakılamız!');
+            }
+        }
+
+    </script>
+        
+</body>
+</html>
