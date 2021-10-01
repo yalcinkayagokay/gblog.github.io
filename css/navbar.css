@@ -1,0 +1,54 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/*body{
+                
+  background-image: url("../images/logo1.png"); 
+  background-size: 350px;
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-attachment:scroll;
+  border-radius: 20px;
+}
+*/
+
+
+#navbar{
+    display: flex;
+}
+
+#navbar ul{
+    list-style: none;
+    display: flex;
+}
+a{
+  text-decoration: none;
+}
+
+
+#navbar ul li a{
+  padding: 1rem;
+}
+
+.navc{
+  background-color: darkkhaki;
+}
+
+#giris input{
+  background-color: lightblue;
+}
+
+div nav ul{
+  margin-left: auto;
+  margin-right: 0;
+}
+div nav ul li{
+  border: 5px solid black;
+  border-radius: 5px;
+  background-color: antiquewhite;
+  margin-right:20px;
+}
+

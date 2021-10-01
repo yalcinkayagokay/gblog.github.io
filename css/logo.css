@@ -1,0 +1,27 @@
+div nav ul li:hover{
+    background-color: gray;
+  }
+  /*
+    #sitename{
+    
+    display: inline-block;
+    background-color: lightgray;
+    border: 5px solid gray;
+    border-radius: 55px;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding: 10px;
+  }
+  */
+
+
+  
+  #logo{
+    display: inline-block;
+    width: 170px;
+    height: auto;
+    position: relative;
+    left: 10px;
+  }
+
